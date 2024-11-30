@@ -1,0 +1,120 @@
+.user-management {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #7a7575;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.biodata-section,
+.permissions-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.biodata-section .profile-picture {
+  width: 100px;
+  height: 100px;
+  background-color: #337ab7;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.biodata-section p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.biodata-form label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.biodata-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f4ff;
+}
+
+.permissions-section .permissions-list label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.date-inputs {
+  display: flex;
+}
+
+.date-inputs label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.date-inputs input {
+  display: block;
+  width: 200px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.save-button {
+  background-color: #0541f8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #7a9aff;
+}
+
+.cancel-button:hover {
+  background-color: #bbb;
+}
